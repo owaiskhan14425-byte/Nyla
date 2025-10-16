@@ -8,7 +8,6 @@ sentence-transformers
 scipy
 scikit-learn
 numpy
-sounddevice
 elevenlabs
 PyPDF2
 uuid
@@ -28,10 +27,8 @@ faiss-cpu
 pymongo
 pydantic
 euriai
-pyaudio
 jiwer 
 pandas
-pydub
 asyncio
 deepgram-sdk
 pymupdf
@@ -61,3 +58,4 @@ pytz==2025.2
 #pip install numpy==1.26.4
 
 #uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
