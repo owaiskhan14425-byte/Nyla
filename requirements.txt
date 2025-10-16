@@ -3,30 +3,24 @@ uvicorn
 requests
 python-dotenv
 langchain
-huggingface-hub
-sentence-transformers
 scipy
 scikit-learn
 numpy
-elevenlabs
 PyPDF2
 uuid
 tqdm
 python-multipart
 langchain-community
 pypdf
-langchain-huggingface
 httpx
 httpx[http2]
 passlib[bcrypt]
 prometheus-fastapi-instrumentator
 docker==5.0.3
 prometheus_client
-deepgram-sdk
 faiss-cpu
 pymongo
 pydantic
-euriai
 jiwer 
 pandas
 asyncio
@@ -58,4 +52,5 @@ pytz==2025.2
 #pip install numpy==1.26.4
 
 #uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
 
