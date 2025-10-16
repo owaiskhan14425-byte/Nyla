@@ -7,7 +7,7 @@ import datetime as dt
 # =========================
 # Quick config
 # =========================
-DEFAULT_BASE_URL = "http://localhost:8001"
+DEFAULT_BASE_URL = "https://boundingly-unmothered-lula.ngrok-free.dev"
 DEFAULT_ENDPOINT = "/rag/ask-robot"
 DEFAULT_BEARER_TOKEN = (
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiVWtWRVZrbHphVzl1ZkVGU1RudzQiLCJzZXNzaW9uX2lkIjoiMTQxMmNkMGFhNzhkNmU4ZGU4ZmY3NWNkMjNiYmIyZTVjNjdlMTU3YmU4ZmY4NWNhN2NjOTkwYjE1M2FkMTU0ZDE3NTk1NTkzMDYwNDEiLCJ1c2VyX3R5cGUiOjAsImV4cCI6MTc2MDQ1OTMwNn0.v-UF8oKm0w7HSsaECAYx7lW-mEniOiO0TrH3NrTRHYA"
@@ -154,3 +154,4 @@ if typed_text:
             st.session_state.messages.append({
                 "role": "assistant", "content": answer, "api_start": elapsed_str
             })
+
